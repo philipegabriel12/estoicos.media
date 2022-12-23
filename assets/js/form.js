@@ -17,7 +17,7 @@ function sendMail() {
     function ValidateMessage(msg)
     {
         if (msg.length < 20){
-            alert("Message needs a minimum length of 20 characters.")
+            alert("Atleast one of your informations are incorrect.")
             return (err)
         } else if (msg.length > 1000){
             alert("Message is too long.")
@@ -28,7 +28,7 @@ function sendMail() {
     function ValidateName(username)
     {
         if (username.length == 0){
-            alert("Please, insert a valid name.")
+            alert("Atleast one of your informations are incorrect.")
             return (err)
         }
     }

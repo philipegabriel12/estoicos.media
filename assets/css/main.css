@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #898989;
+		background: #f5f2ff;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3765,10 +3765,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #ffffff, #3d3d3d);
-				background-image: -webkit-linear-gradient(to right, #ffffff, #3d3d3d);
-				background-image: -ms-linear-gradient(to right, #ffffff, #3d3d3d);
-				background-image: linear-gradient(to right, #ffffff, #3d3d3d);
+				background-image: -moz-linear-gradient(to right, #3d3d3d, #a8009a);
+				background-image: -webkit-linear-gradient(to right, #3d3d3d, #6c007a);
+				background-image: -ms-linear-gradient(to right, #3d3d3d, #4f00aa);
+				background-image: linear-gradient(to right, #3d3d3d, #7d00f1);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3777,11 +3777,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: #20134b;
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #7c00c4;
 			}
 
 				#sidebar nav a.active:after {

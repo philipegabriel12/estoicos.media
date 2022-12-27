@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Estoicos / don't overthink</title>
+	<title>Estoicos</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,15 +21,12 @@
 	<!-- Email Script -->
 	<script src="assets/js/form.js"></script>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
-    <script type="text/javascript">
-      (function () {
-        emailjs.init("7lbVGIKH8ww2puIN0");
-      })();
-    </script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init("7lbVGIKH8ww2puIN0");
+		})();
+	</script>
 
 	<script src="https://kit.fontawesome.com/c6506f5deb.js" crossorigin="anonymous"></script>
 
@@ -44,9 +41,9 @@
 		<div class="inner">
 			<nav>
 				<ul class="siderbar-list">
-					<li><a href="#intro">Welcome</a></li>
-					<li><a href="#two">What we do</a></li>
-					<li><a href="#three">Get in touch</a></li>
+					<li><a href="#intro">Bem-vindo</a></li>
+					<li><a href="#two">O que fazemos</a></li>
+					<li><a href="#three">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -58,32 +55,36 @@
 		<!-- Intro -->
 		<section id="intro" class="wrapper style1 fullscreen fade-up">
 			<div class="inner">
-				<h1>We are Estoicos.</h1>
-				<p>A marketing agency focused on helping
-					your business scale through paid traffic.</a><br />
-					Don't overthink. 🚀 </a></p>
+				<h1>Somos a Estoicos.</h1>
+				<p>Uma agência de marketing digital focada em ajudar o seu negócio a crescer <br /> através de anúncios
+					pagos.</a><br />
+					Não se complique. 🚀 </a></p>
 				<ul class="actions">
-					<li><a href="#two" class="button scrolly">Learn more</a></li>
+					<li><a href="#two" class="button scrolly">Saiba mais</a></li>
 				</ul>
 			</div>
 		</section>
 		<!-- One -->
 		<section id="two" class="wrapper style3 fade-up">
 			<div class="inner">
-				<h2>What we do?</h2>
-				<p>Our team is passionate about helping businesses succeed in the digital landscape. We use data-driven
-					strategies and the latest techniques to drive traffic, increase conversions, and boost revenue.</p>
+				<h2>O que fazemos?</h2>
+				<p>Nossa equipe tem como foco ajudar empresas a terem um massivo ROI (do inglês, retorno sobre
+					investimento), simples assim. Utilizamos
+					estratégias de tráfego pago, para aumentar as
+					conversões e os lucros.</p>
 				<div class="features">
 					<section>
 						<span class="icon solid major fa fa-bar-chart"></span>
-						<h3>Paid Advertising</h3>
-						<p>Ads. That's it. <br />
-							If you're looking for a digital marketing agency that makes it easy for you to track the
-							results of your campaigns and understand exactly how much you're spending and making, we're
-							the team for you. <br /> <br />
-							We excel in one area of digital marketing and do it better than anyone else. If you want a
-							full-service solution of everything that doesn't necessarily drive results, we may not be the best fit
-							for you. But if you want specialized, effective service, give us a try.
+						<h3>Tráfego pago</h3>
+						<p>Anúncios, basicamente. <br /> <br />
+							Se você está procurando uma agência de marketing digital que facilite o acompanhamento dos
+							resultados de suas campanhas e entenda exatamente quanto você está gastando e ganhando,
+							somos a
+							equipe certa para você. <br /> <br />
+							Somos excelentes em uma área de marketing digital e fazemos isso melhor do que qualquer
+							outra pessoa. Se você quer uma solução completa de tudo, mas que não necessariamente gere
+							resultados, talvez não sejamos o melhor para você. Mas se você quer um serviço especializado
+							e eficaz, nos dê um toque! Estaremos a disposição.
 						</p>
 					</section>
 				</div>
@@ -93,28 +94,29 @@
 		<!-- Two -->
 		<section id="three" class="wrapper style1 fade-up">
 			<div class="inner">
-				<h2>Get in touch!</h2>
-				<p>If you're ready to take your business to the next level, contact us today to schedule a consultation
-					and learn more about how we can help you!</p>
+				<h2>Entre em contato!</h2>
+				<p>Se você está pronto para levar o seu negócio para o próximo nível, entre em contato conosco hoje mesmo para agendar uma consulta e aprender mais sobre como podemos ajudá-lo!</p>
 				<div class="split style1">
 					<section>
 						<form id="form">
 							<div class="fields">
 								<div class="field half">
-									<label for="name">Name</label>
-									<input type="text" name="user_name" id="name" placeholder="Marcus Aurelius" maxlength="40" />
+									<label for="name">Nome</label>
+									<input type="text" name="user_name" id="name" placeholder="Marcus Aurelius"
+										maxlength="40" />
 								</div>
 								<div class="field half">
 									<label for="email">Email</label>
 									<input type="text" name="user_email" id="email" placeholder="Email" />
 								</div>
 								<div class="field">
-									<label for="message">Message</label>
-									<textarea minlength="20" name="message" id="message" rows="5" placeholder="Send us a nice message! Minimum length of 20 characters."></textarea>
+									<label for="message">Mensagem</label>
+									<textarea minlength="20" name="message" id="message" rows="5"
+										placeholder="Nos dê um toque! Mínimo de 20 caracteres."></textarea>
 								</div>
 							</div>
 							<ul class="actions">
-								<li><a onclick="sendMail()" class="button">Send Message</a></li>
+								<li><a onclick="sendMail()" class="button">Enviar Mensagem</a></li>
 							</ul>
 						</form>
 					</section>
@@ -122,17 +124,20 @@
 						<ul class="contact">
 							<li>
 								<h3>Email</h3>
-								<a href="mailto:aurelius@estoicos.media?subject=Wanna%20meet%20up?">aurelius@estoicos.online</a>
+								<a
+									href="mailto:aurelius@estoicos.media?subject=Wanna%20meet%20up?">aurelius@estoicos.online</a>
 							</li>
 							<li>
-								<h3>Social</h3>
+								<h3>Redes Sociais</h3>
 								<ul class="icons">
-									<li><a href="https://www.facebook.com/EstoicosMedia" class="icon brands fa-facebook-f" target="_blank"><span
-										class="label">Facebook</span></a></li>
-									<li><a href="https://www.instagram.com/estoicos_media/" class="icon brands fa-instagram" target="_blank"><span
-										class="label">Instagram</span></a></li>
+									<li><a href="https://www.facebook.com/EstoicosMedia"
+											class="icon brands fa-facebook-f" target="_blank"><span
+												class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/estoicos_media/"
+											class="icon brands fa-instagram" target="_blank"><span
+												class="label">Instagram</span></a></li>
 									<li><a href="javascript:void(0)" class="icon brands fa-twitter"><span
-										class="label">Twitter</span></a></li>
+												class="label">Twitter</span></a></li>
 								</ul>
 							</li>
 						</ul>
@@ -147,7 +152,7 @@
 	<footer id="footer" class="wrapper style1-alt">
 		<div class="inner">
 			<ul class="menu">
-				<li>&copy; 2022, Estoicos. All rights reserved.</li>
+				<li>&copy; 2023, Estoicos. All rights reserved.</li>
 				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</div>

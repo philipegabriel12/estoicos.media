@@ -10,17 +10,17 @@ function sendMail() {
         {
             return (true)
         }
-            alert("You have entered an invalid email address!")
+            alert("Você inseriu um e-mail inválido!")
             return (err)
         }
 
     function ValidateMessage(msg)
     {
         if (msg.length < 20){
-            alert("Atleast one of your informations are incorrect.")
+            alert("Pelo menos uma das informações está incorreta.")
             return (err)
         } else if (msg.length > 1000){
-            alert("Message is too long.")
+            alert("Mensagem muito grande.")
             return (err)
         }
     }
@@ -28,7 +28,7 @@ function sendMail() {
     function ValidateName(username)
     {
         if (username.length == 0){
-            alert("Atleast one of your informations are incorrect.")
+            alert("Pelo menos uma das informações está incorreta.")
             return (err)
         }
     }
@@ -45,7 +45,7 @@ function sendMail() {
           document.getElementById("email").value = "";
           document.getElementById("message").value = "";
           console.log(res);
-          alert("Your message was sent successfully.")
+          alert("Obrigado por nos contatar!")
   
       })
       .catch(err=>console.log(err));

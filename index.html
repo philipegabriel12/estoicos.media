@@ -136,7 +136,7 @@
 								</div>
 							</div>
 							<ul class="actions">
-								<li><a onclick="sendMail()" class="button">Enviar Mensagem</a></li>
+								<li><a onclick="sendMail()" class="button" id="contactButton">Enviar Mensagem</a></li>
 							</ul>
 						</form>
 					</section>
@@ -179,9 +179,12 @@
 	</footer>
 
 	<!-- Scripts -->
-	<script>
-		fbq('track', 'Contact');
-	  </script>
+	<script type="text/javascript">
+		document.getElementById('contactButton').addEventListener('click', function() {
+			fbq('track', 'Contact');
+		}, false);
+		</script>
+		
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
